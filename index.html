@@ -1,0 +1,108 @@
+<html lang="pl"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+</head><body><center><title>Rejestracja na wycieczkę do Energylandii</title>
+
+<style>
+   body {
+   font-family: Arial, sans-serif;
+            background-color: rgba(122, 9, 113, 0.26);
+            margin: 0;
+            padding: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+
+            padding: 0;
+            margin: 0;
+            padding: 0;
+            background-image: url(pyk.jpg); 
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+   }
+   form {
+            background-color: rgb(134, 181, 196);
+            padding: 20px;
+            border-radius: 50px;
+            box-shadow: 0 0 30px rgba(55, 95, 82, 0.1);
+        }
+
+        label {
+            display: block;
+            margin-bottom: 20px;
+            font-weight: bold;
+        }
+
+        input, select {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 16px;
+            border: 1px solid rgba(163, 119, 148, 0.856);
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+
+        button {
+            background-color: rgb(9, 138, 95);
+            color: rgba(22, 6, 92, 0.466);
+            padding: 10px 15px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: rgb(4, 202, 47);
+        }
+    
+    </style>
+</head>
+<body>
+<font color="blue">
+<form action="mailto:koscikjulia74@gmail.com" method="post"> 
+   <h4>Rejestracja na wycieczkę do energylandii</h4>
+
+<label for="imie">Podaj Imię:</label>
+    <input type="text" id="imie" name="imie" required="">
+
+    <label for="nazwisko">Podaj Nazwisko:</label>
+    <input type="text" id="nazwisko" name="nazwisko" required="">
+
+    <label for="email">Podaj email:</label>
+    <input type="email" id="email" name="email" required="">
+
+
+   <label for="plec">Wybór Płci:</label>
+   <select id="plec" name="plec">
+       <option value="mezczyzna">Mężczyzna</option>
+       <option value="kobieta">Kobieta</option>
+       <option value="inne">Inne</option>
+</select>
+       <label for="wiek">Podaj wiek:</label>
+       <input type="number" id="wiek" name="wiek" required="">
+       <label for="atrakcje">Wybór atrakcji:</label>
+       <select id="atrakcje" name="atrakcje" multiple="">
+           <option value="hyperion">Hyperion</option>
+           <option value="zadra">Zadra</option>
+           <option value="Twister">Twister</option>
+           <option value="formuła">Formuła</option>
+           <option value="magic pump">Magic Pump</option>
+           <option value="fuego">Fuego</option>
+           <option value="Monster house">Monster house</option>
+           <option value="abyssus">Abyssus</option>
+           <option vakue="inne">Inne</option>
+       </select>
+       <label for="inne">Inne atrakcje, które cię interesują:</label>
+       <input type="text" id="inne" name="inne">
+   
+       <label for="jedzenie">Wybór jedzenia:(lepiej nie jeść przed zadrą XD)</label>
+       <select id="jedzenie" name="jedzenie">
+           <option value="pizza">Pizza</option>
+           <option value="frytki">Frytki</option>
+          <option value="zestaw">Zestaw-frytki+nuggetsy</option>
+          <option value="piciu">Napoje do wyboru</option>
+<p><input type="checkbox" name="opcje"> Zgadzam się na przetwarzanie moich
+danych osobowych</p>
+
+<button type="submit">Wyślij</button>
+</form>
